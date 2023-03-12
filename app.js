@@ -9,7 +9,7 @@ const client = new MongoClient(uri);
 async function run() {
   try {
     const database = client.db('sample_mflix');
-    const movies = database.collection('movies');
+    // const movies = database.collection('movies');
 
     // Query for a movie that has the title 'Back to the Future'
     const query = { title: 'Back to the Future' };
