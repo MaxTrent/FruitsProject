@@ -37,10 +37,10 @@ require("dotenv").config();
 
   // person.save();
 
-  const kiwi = new Fruit({
-    name: 'Kiwi',
-    rating: 5,
-  })
+  // const kiwi = new Fruit({
+  //   name: 'Kiwi',
+  //   rating: 5,
+  // })
   // use `await mongoose.connect('mongodb://user:password@127.0.0.1:27017/test');` if your database has auth enabled
 
 
